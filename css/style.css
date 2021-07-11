@@ -47,6 +47,12 @@ body{
     opacity: 0.8;
 
 }
+#explore-main-sections .fa{
+    font-size: 30px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+}
 
 @media (max-width:768px) {
     #home-section h1{
