@@ -4,12 +4,21 @@ body{
     background:#333;
     color: #fff;
 }
+a{
+    text-decoration: none !important;
+}
 
 .navbar{
     border-bottom: 3px solid #008ed6;
     background: #292b2c;
     opacity: 0.8;
 
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 .ml-auto {
     margin-left: auto!important;
@@ -43,6 +52,11 @@ body{
     border-radius: 5px;
 }
 
+.form-control{
+    font-size: 16px;
+    
+}
+
 .form-card{
     opacity: 0.8;
 
@@ -53,6 +67,7 @@ body{
     background: #000;
     color: #fff;
 }
+
 
 @media (max-width:768px) {
     #home-section h1{
